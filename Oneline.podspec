@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "One"
+  s.name         = "Oneline"
   s.version      = "0.1.0"
   s.summary      = "Set common views' properties in a condensed way - single line."
   s.homepage     = "https://github.com/hoangta/One"

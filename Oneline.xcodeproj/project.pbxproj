@@ -13,6 +13,7 @@
 		061B588A209AF4C100AF03AC /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061B5889209AF4C100AF03AC /* UITextField+Extensions.swift */; };
 		061B588C209B024100AF03AC /* .swift-version in Resources */ = {isa = PBXBuildFile; fileRef = 061B588B209B024100AF03AC /* .swift-version */; };
 		061B588E209B026400AF03AC /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 061B588D209B026400AF03AC /* LICENSE */; };
+		061B5890209B07CF00AF03AC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 061B588F209B07CF00AF03AC /* README.md */; };
 		06E2C13B209ACD4C00D7546C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E2C13A209ACD4C00D7546C /* AppDelegate.swift */; };
 		06E2C13D209ACD4C00D7546C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E2C13C209ACD4C00D7546C /* ViewController.swift */; };
 		06E2C140209ACD4C00D7546C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06E2C13E209ACD4C00D7546C /* Main.storyboard */; };
@@ -27,7 +28,8 @@
 		061B5889209AF4C100AF03AC /* UITextField+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
 		061B588B209B024100AF03AC /* .swift-version */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".swift-version"; sourceTree = "<group>"; };
 		061B588D209B026400AF03AC /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		06E2C137209ACD4C00D7546C /* One.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = One.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		061B588F209B07CF00AF03AC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		06E2C137209ACD4C00D7546C /* Oneline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oneline.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06E2C13A209ACD4C00D7546C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06E2C13C209ACD4C00D7546C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		06E2C13F209ACD4C00D7546C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -61,9 +63,10 @@
 		06E2C12E209ACD4C00D7546C = {
 			isa = PBXGroup;
 			children = (
+				061B588F209B07CF00AF03AC /* README.md */,
 				061B588D209B026400AF03AC /* LICENSE */,
 				061B588B209B024100AF03AC /* .swift-version */,
-				06E2C139209ACD4C00D7546C /* One */,
+				06E2C139209ACD4C00D7546C /* Oneline */,
 				06E2C138209ACD4C00D7546C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,12 +74,12 @@
 		06E2C138209ACD4C00D7546C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				06E2C137209ACD4C00D7546C /* One.app */,
+				06E2C137209ACD4C00D7546C /* Oneline.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		06E2C139209ACD4C00D7546C /* One */ = {
+		06E2C139209ACD4C00D7546C /* Oneline */ = {
 			isa = PBXGroup;
 			children = (
 				061B5882209ADA6100AF03AC /* Classes */,
@@ -87,15 +90,15 @@
 				06E2C143209ACD4C00D7546C /* LaunchScreen.storyboard */,
 				06E2C146209ACD4D00D7546C /* Info.plist */,
 			);
-			path = One;
+			path = Oneline;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		06E2C136209ACD4C00D7546C /* One */ = {
+		06E2C136209ACD4C00D7546C /* Oneline */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 06E2C149209ACD4D00D7546C /* Build configuration list for PBXNativeTarget "One" */;
+			buildConfigurationList = 06E2C149209ACD4D00D7546C /* Build configuration list for PBXNativeTarget "Oneline" */;
 			buildPhases = (
 				06E2C133209ACD4C00D7546C /* Sources */,
 				06E2C134209ACD4C00D7546C /* Frameworks */,
@@ -105,9 +108,9 @@
 			);
 			dependencies = (
 			);
-			name = One;
+			name = Oneline;
 			productName = One;
-			productReference = 06E2C137209ACD4C00D7546C /* One.app */;
+			productReference = 06E2C137209ACD4C00D7546C /* Oneline.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -126,7 +129,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 06E2C132209ACD4C00D7546C /* Build configuration list for PBXProject "One" */;
+			buildConfigurationList = 06E2C132209ACD4C00D7546C /* Build configuration list for PBXProject "Oneline" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -139,7 +142,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				06E2C136209ACD4C00D7546C /* One */,
+				06E2C136209ACD4C00D7546C /* Oneline */,
 			);
 		};
 /* End PBXProject section */
@@ -149,6 +152,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				061B5890209B07CF00AF03AC /* README.md in Resources */,
 				061B588C209B024100AF03AC /* .swift-version in Resources */,
 				06E2C145209ACD4C00D7546C /* LaunchScreen.storyboard in Resources */,
 				06E2C142209ACD4C00D7546C /* Assets.xcassets in Resources */,
@@ -337,7 +341,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		06E2C132209ACD4C00D7546C /* Build configuration list for PBXProject "One" */ = {
+		06E2C132209ACD4C00D7546C /* Build configuration list for PBXProject "Oneline" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				06E2C147209ACD4D00D7546C /* Debug */,
@@ -346,7 +350,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		06E2C149209ACD4D00D7546C /* Build configuration list for PBXNativeTarget "One" */ = {
+		06E2C149209ACD4D00D7546C /* Build configuration list for PBXNativeTarget "Oneline" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				06E2C14A209ACD4D00D7546C /* Debug */,

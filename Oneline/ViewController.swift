@@ -17,6 +17,11 @@ class ViewController: UIViewController {
     
     @IBAction func benchMark(_ sender: Any) {
         testUIView()
+        let label = UILabel().text("Hi, there!").font(.systemFont(ofSize: 12)).textColor(.blue).numberOfLines()
+        label.text = "Hi, there!"
+        label.font = .systemFont(ofSize: 12)
+        label.textColor = .blue
+        label.numberOfLines = 0
     }
     
     func testUIView() {
