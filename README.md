@@ -16,7 +16,7 @@ label.textColor = .blue
 label.numberOfLines = 0
 ```
 ### Cocoapods
-
+**For iOS 8+**
 Add the following entry in your Podfile
 
 ```
@@ -26,7 +26,7 @@ pod 'Oneline'
 Then run `pod install`.
 
 ### Contribution
-Feel free to fork, pull to request for your commonly used UIView subclasses.
+Feel free to fork, pull to request for you commonly used UIView subclasses.
 ### License
 
 Oneline is released under an MIT license.
