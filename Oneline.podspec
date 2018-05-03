@@ -7,5 +7,5 @@ Pod::Spec.new do |s|
   s.author           = { 'Hoang Ta' => 'blue.hoangta@gmail.com' }
   s.ios.deployment_target = "8.0"
   s.source       = { :git => "https://github.com/hoangta/One.git", :tag => "#{s.version}" }
-  s.source_files  = "One/Classes/*.swift"
+  s.source_files  = "Oneline/Classes/*.swift"
 end
