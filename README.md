@@ -16,7 +16,7 @@ label.textColor = .blue
 label.numberOfLines = 0
 ```
 ### Cocoapods
-**For iOS 8+**
+
 Add the following entry in your Podfile
 
 ```
