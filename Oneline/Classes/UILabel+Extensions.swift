@@ -8,91 +8,91 @@
 
 import UIKit
 
-extension UILabel {
+public extension UILabel {
     
     @discardableResult
-    func text(_ text: String?) -> Self {
+    public func text(_ text: String?) -> Self {
         self.text = text; return self
     }
     
     @discardableResult
-    func font(_ font: UIFont) -> Self {
+    public func font(_ font: UIFont) -> Self {
         self.font = font; return self
     }
     
     @discardableResult
-    func textColor(_ color: UIColor) -> Self {
+    public func textColor(_ color: UIColor) -> Self {
         self.textColor = color; return self
     }
     
     @discardableResult
-    func shadowColor(_ color: UIColor) -> Self {
+    public func shadowColor(_ color: UIColor) -> Self {
         self.shadowColor = color; return self
     }
     
     @discardableResult
-    func shadowOffset(_ value: CGSize) -> Self {
+    public func shadowOffset(_ value: CGSize) -> Self {
         self.shadowOffset = value; return self
     }
     
     @discardableResult
-    func textAlignment(_ alignment: NSTextAlignment) -> Self {
+    public func textAlignment(_ alignment: NSTextAlignment) -> Self {
         self.textAlignment = alignment; return self
     }
     
     @discardableResult
-    func lineBreakMode(_ mode: NSLineBreakMode) -> Self {
+    public func lineBreakMode(_ mode: NSLineBreakMode) -> Self {
         self.lineBreakMode = mode; return self
     }
     
     @discardableResult
-    func attributedText(_ title: NSAttributedString?) -> Self {
+    public func attributedText(_ title: NSAttributedString?) -> Self {
         self.attributedText = title; return self
     }
     
     @discardableResult
-    func highlightedTextColor(_ color: UIColor) -> Self {
+    public func highlightedTextColor(_ color: UIColor) -> Self {
         self.highlightedTextColor = color; return self
     }
     
     @discardableResult
-    func isHighlighted(_ value: Bool) -> Self {
+    public func isHighlighted(_ value: Bool) -> Self {
         self.isHighlighted = value; return self
     }
     
     @discardableResult
-    func isEnabled(_ value: Bool) -> Self {
+    public func isEnabled(_ value: Bool) -> Self {
         self.isEnabled = value; return self
     }
     
     @discardableResult
-    func numberOfLines(_ lines: Int = 0) -> Self {
+    public func numberOfLines(_ lines: Int = 0) -> Self {
         self.numberOfLines = lines; return self
     }
     
     @discardableResult
-    func adjustsFontSizeToFitWidth(_ value: Bool = true) -> Self {
+    public func adjustsFontSizeToFitWidth(_ value: Bool = true) -> Self {
         self.adjustsFontSizeToFitWidth = value; return self
     }
     
     @discardableResult
-    func baselineAdjustment(_ value: UIBaselineAdjustment) -> Self {
+    public func baselineAdjustment(_ value: UIBaselineAdjustment) -> Self {
         self.baselineAdjustment = value; return self
     }
     
     @discardableResult
-    func minimumScaleFactor(_ value: CGFloat) -> Self {
+    public func minimumScaleFactor(_ value: CGFloat) -> Self {
         self.minimumScaleFactor = value; return self
     }
     
     @available(iOS 9.0, *)
     @discardableResult
-    func allowsDefaultTighteningForTruncation(_ value: Bool) -> Self {
+    public func allowsDefaultTighteningForTruncation(_ value: Bool) -> Self {
         self.allowsDefaultTighteningForTruncation = value; return self
     }
     
     @discardableResult
-    func preferredMaxLayoutWidth(_ value: CGFloat) -> Self {
+    public func preferredMaxLayoutWidth(_ value: CGFloat) -> Self {
         self.preferredMaxLayoutWidth = value; return self
     }
 }

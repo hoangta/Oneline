@@ -15,6 +15,7 @@
 		061B588E209B026400AF03AC /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 061B588D209B026400AF03AC /* LICENSE */; };
 		061B5890209B07CF00AF03AC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 061B588F209B07CF00AF03AC /* README.md */; };
 		061B5892209B132F00AF03AC /* Oneline.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 061B5891209B132F00AF03AC /* Oneline.podspec */; };
+		064DF2E120A41FB2005EA81D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 064DF2E020A41FB2005EA81D /* Default-568h@2x.png */; };
 		06E2C13B209ACD4C00D7546C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E2C13A209ACD4C00D7546C /* AppDelegate.swift */; };
 		06E2C13D209ACD4C00D7546C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E2C13C209ACD4C00D7546C /* ViewController.swift */; };
 		06E2C140209ACD4C00D7546C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06E2C13E209ACD4C00D7546C /* Main.storyboard */; };
@@ -31,6 +32,7 @@
 		061B588D209B026400AF03AC /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		061B588F209B07CF00AF03AC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		061B5891209B132F00AF03AC /* Oneline.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Oneline.podspec; sourceTree = "<group>"; };
+		064DF2E020A41FB2005EA81D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		06E2C137209ACD4C00D7546C /* Oneline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oneline.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06E2C13A209ACD4C00D7546C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06E2C13C209ACD4C00D7546C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 		06E2C12E209ACD4C00D7546C = {
 			isa = PBXGroup;
 			children = (
+				064DF2E020A41FB2005EA81D /* Default-568h@2x.png */,
 				061B5891209B132F00AF03AC /* Oneline.podspec */,
 				061B588F209B07CF00AF03AC /* README.md */,
 				061B588D209B026400AF03AC /* LICENSE */,
@@ -160,6 +163,7 @@
 				061B588C209B024100AF03AC /* .swift-version in Resources */,
 				06E2C145209ACD4C00D7546C /* LaunchScreen.storyboard in Resources */,
 				06E2C142209ACD4C00D7546C /* Assets.xcassets in Resources */,
+				064DF2E120A41FB2005EA81D /* Default-568h@2x.png in Resources */,
 				06E2C140209ACD4C00D7546C /* Main.storyboard in Resources */,
 				061B588E209B026400AF03AC /* LICENSE in Resources */,
 			);
@@ -316,7 +320,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7Q65US49K6;
-				INFOPLIST_FILE = One/Info.plist;
+				INFOPLIST_FILE = Oneline/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.2359media.One;
@@ -332,7 +336,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7Q65US49K6;
-				INFOPLIST_FILE = One/Info.plist;
+				INFOPLIST_FILE = Oneline/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.2359media.One;

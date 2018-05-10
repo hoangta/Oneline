@@ -5,7 +5,7 @@
 Initialize UIView then chain setting its properties.
 
 ```swift
-let label = UILabel().text("Hi, there!").font(.systemFont(ofSize: 12)).textColor(.blue).numberOfLines()
+let label = UILabel().text("Hi, there!").font(.systemFont(ofSize: 12)).textColor(.blue).numberOfLines().backgroundColor(.green).textAlignment(.center)
 ```
 Instead of
 ```swift
@@ -14,6 +14,8 @@ label.text = "Hi, there!"
 label.font = .systemFont(ofSize: 12)
 label.textColor = .blue
 label.numberOfLines = 0
+label.backgroundColor = .green
+label.textAlignment = .center
 ```
 ### Cocoapods
 
