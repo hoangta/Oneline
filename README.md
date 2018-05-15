@@ -5,7 +5,7 @@
 Initialize UIView then chain setting its properties.
 
 ```swift
-let label = UILabel().text("Hi, there!").font(.systemFont(ofSize: 12)).color(.blue).lines().bgColor(.green).align(.center)
+let label = UILabel("Hi, there!").font(.systemFont(ofSize: 12)).color(.blue).lines().bgColor(.green).align(.center)
 ```
 Instead of
 ```swift
