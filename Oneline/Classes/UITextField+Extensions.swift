@@ -16,7 +16,7 @@ public extension UITextField {
     }
     
     @discardableResult
-    public func textColor(_ color: UIColor) -> Self {
+    public func color(_ color: UIColor) -> Self {
         self.textColor = color; return self
     }
     
@@ -26,7 +26,7 @@ public extension UITextField {
     }
     
     @discardableResult
-    public func textAlignment(_ alignment: NSTextAlignment) -> Self {
+    public func align(_ alignment: NSTextAlignment) -> Self {
         self.textAlignment = alignment; return self
     }
     
@@ -61,7 +61,7 @@ public extension UITextField {
     }
     
     @discardableResult
-    public func minimumFontSize(_ value: CGFloat) -> Self {
+    public func minFontSize(_ value: CGFloat) -> Self {
         self.minimumFontSize = value; return self
     }
     

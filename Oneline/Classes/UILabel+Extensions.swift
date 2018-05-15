@@ -10,6 +10,11 @@ import UIKit
 
 public extension UILabel {
     
+    convenience init(_ text: String) {
+        self.init(frame: CGRect())
+        self.text = text
+    }
+    
     @discardableResult
     public func text(_ text: String?) -> Self {
         self.text = text; return self
@@ -21,7 +26,7 @@ public extension UILabel {
     }
     
     @discardableResult
-    public func textColor(_ color: UIColor) -> Self {
+    public func color(_ color: UIColor) -> Self {
         self.textColor = color; return self
     }
     
@@ -36,7 +41,7 @@ public extension UILabel {
     }
     
     @discardableResult
-    public func textAlignment(_ alignment: NSTextAlignment) -> Self {
+    public func align(_ alignment: NSTextAlignment) -> Self {
         self.textAlignment = alignment; return self
     }
     
@@ -56,17 +61,17 @@ public extension UILabel {
     }
     
     @discardableResult
-    public func isHighlighted(_ value: Bool) -> Self {
+    public func highlight(_ value: Bool) -> Self {
         self.isHighlighted = value; return self
     }
     
     @discardableResult
-    public func isEnabled(_ value: Bool) -> Self {
+    public func enable(_ value: Bool) -> Self {
         self.isEnabled = value; return self
     }
     
     @discardableResult
-    public func numberOfLines(_ lines: Int = 0) -> Self {
+    public func lines(_ lines: Int = 0) -> Self {
         self.numberOfLines = lines; return self
     }
     
@@ -81,7 +86,7 @@ public extension UILabel {
     }
     
     @discardableResult
-    public func minimumScaleFactor(_ value: CGFloat) -> Self {
+    public func minScaleFactor(_ value: CGFloat) -> Self {
         self.minimumScaleFactor = value; return self
     }
     

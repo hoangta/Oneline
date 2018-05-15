@@ -5,7 +5,7 @@
 Initialize UIView then chain setting its properties.
 
 ```swift
-let label = UILabel().text("Hi, there!").font(.systemFont(ofSize: 12)).textColor(.blue).numberOfLines().backgroundColor(.green).textAlignment(.center)
+let label = UILabel().text("Hi, there!").font(.systemFont(ofSize: 12)).color(.blue).lines().bgColor(.green).align(.center)
 ```
 Instead of
 ```swift
@@ -36,4 +36,4 @@ Oneline is released under an MIT license.
 [lang-image]: https://img.shields.io/badge/swift-4.0-orange.svg
 [license-image]: https://img.shields.io/github/license/mashape/apistatus.svg
 [platform-image]: https://img.shields.io/badge/platform-iOS-lightGrey.svg
-[pod-version-image]: https://img.shields.io/badge/pod-0.1.0-blue.svg
+[pod-version-image]: https://img.shields.io/badge/pod-1.0.0-blue.svg

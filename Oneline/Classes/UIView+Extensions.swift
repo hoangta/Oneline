@@ -12,7 +12,7 @@ import UIKit
 public extension UIView {
     
     @discardableResult
-    public func isUserInteractionEnabled(_ value: Bool) -> Self {
+    public func canInteract(_ value: Bool) -> Self {
         self.isUserInteractionEnabled = value; return self
     }
     
@@ -48,17 +48,17 @@ public extension UIView {
     }
     
     @discardableResult
-    public func contentScaleFactor(_ value: CGFloat) -> Self {
+    public func scaleFactor(_ value: CGFloat) -> Self {
         self.contentScaleFactor = value; return self
     }
     
     @discardableResult
-    public func isMultipleTouchEnabled(_ value: Bool) -> Self {
+    public func canMulTouch(_ value: Bool) -> Self {
         self.isMultipleTouchEnabled = value; return self
     }
     
     @discardableResult
-    public func isExclusiveTouch(_ value: Bool) -> Self {
+    public func exclusiveTouch(_ value: Bool) -> Self {
         self.isExclusiveTouch = value; return self
     }
     
@@ -95,12 +95,12 @@ public extension UIView {
     }
     
     @discardableResult
-    public func clipsToBounds(_ value: Bool = true) -> Self {
+    public func clip(_ value: Bool = true) -> Self {
         self.clipsToBounds = value; return self
     }
     
     @discardableResult
-    public func backgroundColor(_ value: UIColor?) -> Self {
+    public func bgColor(_ value: UIColor?) -> Self {
         self.backgroundColor = value; return self
     }
     
@@ -110,7 +110,7 @@ public extension UIView {
     }
     
     @discardableResult
-    public func isOpaque(_ value: Bool) -> Self {
+    public func opaque(_ value: Bool) -> Self {
         self.isOpaque = value; return self
     }
     
@@ -120,7 +120,7 @@ public extension UIView {
     }
     
     @discardableResult
-    public func isHidden(_ value: Bool = true) -> Self {
+    public func hide(_ value: Bool = true) -> Self {
         self.isHidden = value; return self
     }
     
