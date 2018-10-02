@@ -31,12 +31,12 @@ public extension UITextField {
     }
     
     @discardableResult
-    public func borderStyle(_ style: UITextBorderStyle) -> Self {
+    public func borderStyle(_ style: UITextField.BorderStyle) -> Self {
         self.borderStyle = style; return self
     }
     
     @discardableResult
-    public func defaultTextAttributes(_ value: [String : Any]) -> Self {
+    public func defaultTextAttributes(_ value: [NSAttributedString.Key : Any]) -> Self {
         self.defaultTextAttributes = value; return self
     }
     
@@ -86,12 +86,13 @@ public extension UITextField {
     }
     
     @discardableResult
-    public func typingAttributes(_ value: [String : Any]?) -> Self {
+
+    public func typingAttributes(_ value: [NSAttributedString.Key : Any]?) -> Self {
         self.typingAttributes = value; return self
     }
     
     @discardableResult
-    public func clearButtonMode(_ value: UITextFieldViewMode) -> Self {
+    public func clearButtonMode(_ value: UITextField.ViewMode) -> Self {
         self.clearButtonMode = value; return self
     }
     
@@ -101,7 +102,7 @@ public extension UITextField {
     }
     
     @discardableResult
-    public func leftViewMode(_ value: UITextFieldViewMode) -> Self {
+    public func leftViewMode(_ value: UITextField.ViewMode) -> Self {
         self.leftViewMode = value; return self
     }
     
@@ -111,7 +112,7 @@ public extension UITextField {
     }
     
     @discardableResult
-    public func rightViewMode(_ value: UITextFieldViewMode) -> Self {
+    public func rightViewMode(_ value: UITextField.ViewMode) -> Self {
         self.rightViewMode = value; return self
     }
     
@@ -125,5 +126,3 @@ public extension UITextField {
         self.inputAccessoryView = value; return self
     }
 }
-
-

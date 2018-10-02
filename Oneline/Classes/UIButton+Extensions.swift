@@ -46,32 +46,32 @@ public extension UIButton {
     }
     
     @discardableResult
-    public func title(_ title: String?, _ state: UIControlState = .normal) -> Self {
+    public func title(_ title: String?, _ state: UIControl.State = .normal) -> Self {
         self.setTitle(title, for: state); return self
     }
     
     @discardableResult
-    public func titleColor(_ color: UIColor?, _ state: UIControlState = .normal) -> Self {
+    public func titleColor(_ color: UIColor?, _ state: UIControl.State = .normal) -> Self {
         self.setTitleColor(color, for: state); return self
     }
     
     @discardableResult
-    public func titleShadowColor(_ color: UIColor?, _ state: UIControlState = .normal) -> Self {
+    public func titleShadowColor(_ color: UIColor?, _ state: UIControl.State = .normal) -> Self {
         self.setTitleColor(color, for: state); return self
     }
     
     @discardableResult
-    public func image(_ image: UIImage?, _ state: UIControlState = .normal) -> Self {
+    public func image(_ image: UIImage?, _ state: UIControl.State = .normal) -> Self {
         self.setImage(image, for: state); return self
     }
     
     @discardableResult
-    public func bgImage(_ color: UIImage?, _ state: UIControlState = .normal) -> Self {
+    public func bgImage(_ color: UIImage?, _ state: UIControl.State = .normal) -> Self {
         self.setBackgroundImage(color, for: state); return self
     }
     
     @discardableResult
-    public func attributedTitle(_ title: NSAttributedString?, _ state: UIControlState = .normal) -> Self {
+    public func attributedTitle(_ title: NSAttributedString?, _ state: UIControl.State = .normal) -> Self {
         self.setAttributedTitle(title, for: state); return self
     }
 }
