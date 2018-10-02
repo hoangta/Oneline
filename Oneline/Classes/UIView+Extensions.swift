@@ -68,7 +68,7 @@ public extension UIView {
     }
     
     @discardableResult
-    public func autoresizingMask(_ value: UIViewAutoresizing) -> Self {
+    public func autoresizingMask(_ value: UIView.AutoresizingMask) -> Self {
         self.autoresizingMask = value; return self
     }
     
@@ -125,7 +125,7 @@ public extension UIView {
     }
     
     @discardableResult
-    public func contentMode(_ value: UIViewContentMode) -> Self {
+    public func contentMode(_ value: UIView.ContentMode) -> Self {
         self.contentMode = value; return self
     }
     
@@ -140,7 +140,7 @@ public extension UIView {
     }
 
     @discardableResult
-    public func tintAdjustmentMode(_ value: UIViewTintAdjustmentMode) -> Self {
+    public func tintAdjustmentMode(_ value: UIView.TintAdjustmentMode) -> Self {
         self.tintAdjustmentMode = value; return self
     }
 }
