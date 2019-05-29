@@ -80,12 +80,12 @@ public extension UIButton {
 extension UIButton {
 
     @discardableResult
-    public func font(_ font: UIFont) -> Self {
+    func font(_ font: UIFont?) -> Self {
         self.titleLabel?.font = font; return self
     }
     
     @discardableResult
-    public func align(_ alignment: NSTextAlignment) -> Self {
+    func align(_ alignment: NSTextAlignment) -> Self {
         self.titleLabel?.textAlignment = alignment; return self
     }
 }

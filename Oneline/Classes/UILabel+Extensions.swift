@@ -21,17 +21,17 @@ public extension UILabel {
     }
     
     @discardableResult
-    public func font(_ font: UIFont) -> Self {
+    func font(_ font: UIFont?) -> Self {
         self.font = font; return self
     }
     
     @discardableResult
-    public func color(_ color: UIColor) -> Self {
+    func color(_ color: UIColor?) -> Self {
         self.textColor = color; return self
     }
     
     @discardableResult
-    public func shadowColor(_ color: UIColor) -> Self {
+    func shadowColor(_ color: UIColor?) -> Self {
         self.shadowColor = color; return self
     }
     
@@ -56,7 +56,7 @@ public extension UILabel {
     }
     
     @discardableResult
-    public func highlightedTextColor(_ color: UIColor) -> Self {
+    func highlightedTextColor(_ color: UIColor?) -> Self {
         self.highlightedTextColor = color; return self
     }
     

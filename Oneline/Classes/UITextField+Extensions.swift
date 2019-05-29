@@ -11,17 +11,17 @@ import UIKit
 public extension UITextField {
     
     @discardableResult
-    public func text(_ text: String) -> Self {
+    func text(_ text: String?) -> Self {
         self.text = text; return self
     }
     
     @discardableResult
-    public func color(_ color: UIColor) -> Self {
+    func color(_ color: UIColor?) -> Self {
         self.textColor = color; return self
     }
     
     @discardableResult
-    public func font(_ font: UIFont) -> Self {
+    func font(_ font: UIFont?) -> Self {
         self.font = font; return self
     }
     
@@ -41,7 +41,7 @@ public extension UITextField {
     }
     
     @discardableResult
-    public func placeholder(_ text: String) -> Self {
+    func placeholder(_ text: String?) -> Self {
         self.placeholder = text; return self
     }
     

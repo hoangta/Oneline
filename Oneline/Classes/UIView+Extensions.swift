@@ -135,7 +135,7 @@ public extension UIView {
     }
     
     @discardableResult
-    public func tintColor(_ color: UIColor) -> Self {
+    func tintColor(_ color: UIColor?) -> Self {
         self.tintColor = color; return self
     }
 
