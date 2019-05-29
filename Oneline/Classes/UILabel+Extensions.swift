@@ -16,7 +16,7 @@ public extension UILabel {
     }
     
     @discardableResult
-    public func text(_ text: String?) -> Self {
+    func text(_ text: String?) -> Self {
         self.text = text; return self
     }
     
@@ -36,22 +36,22 @@ public extension UILabel {
     }
     
     @discardableResult
-    public func shadowOffset(_ value: CGSize) -> Self {
+    func shadowOffset(_ value: CGSize) -> Self {
         self.shadowOffset = value; return self
     }
     
     @discardableResult
-    public func align(_ alignment: NSTextAlignment) -> Self {
+    func align(_ alignment: NSTextAlignment) -> Self {
         self.textAlignment = alignment; return self
     }
     
     @discardableResult
-    public func lineBreakMode(_ mode: NSLineBreakMode) -> Self {
+    func lineBreakMode(_ mode: NSLineBreakMode) -> Self {
         self.lineBreakMode = mode; return self
     }
     
     @discardableResult
-    public func attributedText(_ title: NSAttributedString?) -> Self {
+    func attributedText(_ title: NSAttributedString?) -> Self {
         self.attributedText = title; return self
     }
     
@@ -61,43 +61,43 @@ public extension UILabel {
     }
     
     @discardableResult
-    public func highlight(_ value: Bool) -> Self {
+    func highlight(_ value: Bool) -> Self {
         self.isHighlighted = value; return self
     }
     
     @discardableResult
-    public func enable(_ value: Bool) -> Self {
+    func enable(_ value: Bool) -> Self {
         self.isEnabled = value; return self
     }
     
     @discardableResult
-    public func lines(_ lines: Int = 0) -> Self {
+    func lines(_ lines: Int = 0) -> Self {
         self.numberOfLines = lines; return self
     }
     
     @discardableResult
-    public func adjustsFontSizeToFitWidth(_ value: Bool = true) -> Self {
+    func adjustsFontSizeToFitWidth(_ value: Bool = true) -> Self {
         self.adjustsFontSizeToFitWidth = value; return self
     }
     
     @discardableResult
-    public func baselineAdjustment(_ value: UIBaselineAdjustment) -> Self {
+    func baselineAdjustment(_ value: UIBaselineAdjustment) -> Self {
         self.baselineAdjustment = value; return self
     }
     
     @discardableResult
-    public func minScaleFactor(_ value: CGFloat) -> Self {
+    func minScaleFactor(_ value: CGFloat) -> Self {
         self.minimumScaleFactor = value; return self
     }
     
     @available(iOS 9.0, *)
     @discardableResult
-    public func allowsDefaultTighteningForTruncation(_ value: Bool) -> Self {
+    func allowsDefaultTighteningForTruncation(_ value: Bool) -> Self {
         self.allowsDefaultTighteningForTruncation = value; return self
     }
     
     @discardableResult
-    public func preferredMaxLayoutWidth(_ value: CGFloat) -> Self {
+    func preferredMaxLayoutWidth(_ value: CGFloat) -> Self {
         self.preferredMaxLayoutWidth = value; return self
     }
 }
