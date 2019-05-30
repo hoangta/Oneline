@@ -13,7 +13,6 @@
 		061B5886209AEF8600AF03AC /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061B5885209AEF8600AF03AC /* UIButton+Extensions.swift */; };
 		061B5888209AF07300AF03AC /* UILabel+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061B5887209AF07300AF03AC /* UILabel+Extensions.swift */; };
 		061B588A209AF4C100AF03AC /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061B5889209AF4C100AF03AC /* UITextField+Extensions.swift */; };
-		061B588C209B024100AF03AC /* .swift-version in Resources */ = {isa = PBXBuildFile; fileRef = 061B588B209B024100AF03AC /* .swift-version */; };
 		061B588E209B026400AF03AC /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 061B588D209B026400AF03AC /* LICENSE */; };
 		061B5890209B07CF00AF03AC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 061B588F209B07CF00AF03AC /* README.md */; };
 		061B5892209B132F00AF03AC /* Oneline.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 061B5891209B132F00AF03AC /* Oneline.podspec */; };
@@ -43,7 +42,6 @@
 		061B5885209AEF8600AF03AC /* UIButton+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extensions.swift"; sourceTree = "<group>"; };
 		061B5887209AF07300AF03AC /* UILabel+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extensions.swift"; sourceTree = "<group>"; };
 		061B5889209AF4C100AF03AC /* UITextField+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
-		061B588B209B024100AF03AC /* .swift-version */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".swift-version"; sourceTree = "<group>"; };
 		061B588D209B026400AF03AC /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		061B588F209B07CF00AF03AC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		061B5891209B132F00AF03AC /* Oneline.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Oneline.podspec; sourceTree = "<group>"; };
@@ -107,7 +105,6 @@
 				061B5891209B132F00AF03AC /* Oneline.podspec */,
 				061B588F209B07CF00AF03AC /* README.md */,
 				061B588D209B026400AF03AC /* LICENSE */,
-				061B588B209B024100AF03AC /* .swift-version */,
 				06E2C139209ACD4C00D7546C /* Oneline */,
 				0667D61520AACF5D00B0ADD0 /* OnelineTests */,
 				06E2C138209ACD4C00D7546C /* Products */,
@@ -231,7 +228,6 @@
 			files = (
 				061B5892209B132F00AF03AC /* Oneline.podspec in Resources */,
 				061B5890209B07CF00AF03AC /* README.md in Resources */,
-				061B588C209B024100AF03AC /* .swift-version in Resources */,
 				06148F4220A563DF00A37BE6 /* .travis.yml in Resources */,
 				06E2C145209ACD4C00D7546C /* LaunchScreen.storyboard in Resources */,
 				06E2C142209ACD4C00D7546C /* Assets.xcassets in Resources */,
