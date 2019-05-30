@@ -11,67 +11,67 @@ import UIKit
 public extension UIButton {
     
     @discardableResult
-    public func contentEdgeInsets(_ value: UIEdgeInsets) -> Self {
+    func contentEdgeInsets(_ value: UIEdgeInsets) -> Self {
         self.contentEdgeInsets = value; return self
     }
     
     @discardableResult
-    public func titleEdgeInsets(_ value: UIEdgeInsets) -> Self {
+    func titleEdgeInsets(_ value: UIEdgeInsets) -> Self {
         self.titleEdgeInsets = value; return self
     }
     
     @discardableResult
-    public func reversesTitleShadowWhenHighlighted(_ value: Bool) -> Self {
+    func reversesTitleShadowWhenHighlighted(_ value: Bool) -> Self {
         self.reversesTitleShadowWhenHighlighted = value; return self
     }
     
     @discardableResult
-    public func imageEdgeInsets(_ value: UIEdgeInsets) -> Self {
+    func imageEdgeInsets(_ value: UIEdgeInsets) -> Self {
         self.imageEdgeInsets = value; return self
     }
     
     @discardableResult
-    public func adjustsImageWhenHighlighted(_ value: Bool) -> Self {
+    func adjustsImageWhenHighlighted(_ value: Bool) -> Self {
         self.adjustsImageWhenHighlighted = value; return self
     }
     
     @discardableResult
-    public func adjustsImageWhenDisabled(_ value: Bool) -> Self {
+    func adjustsImageWhenDisabled(_ value: Bool) -> Self {
         self.adjustsImageWhenDisabled = value; return self
     }
     
     @discardableResult
-    public func showsTouchWhenHighlighted(_ value: Bool) -> Self {
+    func showsTouchWhenHighlighted(_ value: Bool) -> Self {
         self.showsTouchWhenHighlighted = value; return self
     }
     
     @discardableResult
-    public func title(_ title: String?, _ state: UIControl.State = .normal) -> Self {
+    func title(_ title: String?, _ state: UIControl.State = .normal) -> Self {
         self.setTitle(title, for: state); return self
     }
     
     @discardableResult
-    public func titleColor(_ color: UIColor?, _ state: UIControl.State = .normal) -> Self {
+    func titleColor(_ color: UIColor?, _ state: UIControl.State = .normal) -> Self {
         self.setTitleColor(color, for: state); return self
     }
     
     @discardableResult
-    public func titleShadowColor(_ color: UIColor?, _ state: UIControl.State = .normal) -> Self {
+    func titleShadowColor(_ color: UIColor?, _ state: UIControl.State = .normal) -> Self {
         self.setTitleColor(color, for: state); return self
     }
     
     @discardableResult
-    public func image(_ image: UIImage?, _ state: UIControl.State = .normal) -> Self {
+    func image(_ image: UIImage?, _ state: UIControl.State = .normal) -> Self {
         self.setImage(image, for: state); return self
     }
     
     @discardableResult
-    public func bgImage(_ color: UIImage?, _ state: UIControl.State = .normal) -> Self {
+    func bgImage(_ color: UIImage?, _ state: UIControl.State = .normal) -> Self {
         self.setBackgroundImage(color, for: state); return self
     }
     
     @discardableResult
-    public func attributedTitle(_ title: NSAttributedString?, _ state: UIControl.State = .normal) -> Self {
+    func attributedTitle(_ title: NSAttributedString?, _ state: UIControl.State = .normal) -> Self {
         self.setAttributedTitle(title, for: state); return self
     }
 }
@@ -80,12 +80,12 @@ public extension UIButton {
 extension UIButton {
 
     @discardableResult
-    public func font(_ font: UIFont) -> Self {
+    func font(_ font: UIFont?) -> Self {
         self.titleLabel?.font = font; return self
     }
     
     @discardableResult
-    public func align(_ alignment: NSTextAlignment) -> Self {
+    func align(_ alignment: NSTextAlignment) -> Self {
         self.titleLabel?.textAlignment = alignment; return self
     }
 }
