@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		061030AC229FE3A700956790 /* UIControl+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061030AB229FE3A700956790 /* UIControl+Extensions.swift */; };
 		06148F4220A563DF00A37BE6 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 06148F4120A563DF00A37BE6 /* .travis.yml */; };
 		061B5884209ADABA00AF03AC /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061B5883209ADABA00AF03AC /* UIView+Extensions.swift */; };
 		061B5886209AEF8600AF03AC /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061B5885209AEF8600AF03AC /* UIButton+Extensions.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		061030AB229FE3A700956790 /* UIControl+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIControl+Extensions.swift"; sourceTree = "<group>"; };
 		06148F4120A563DF00A37BE6 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 		061B5883209ADABA00AF03AC /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		061B5885209AEF8600AF03AC /* UIButton+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extensions.swift"; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				061B5883209ADABA00AF03AC /* UIView+Extensions.swift */,
+				061030AB229FE3A700956790 /* UIControl+Extensions.swift */,
 				061B5885209AEF8600AF03AC /* UIButton+Extensions.swift */,
 				061B5887209AF07300AF03AC /* UILabel+Extensions.swift */,
 				061B5889209AF4C100AF03AC /* UITextField+Extensions.swift */,
@@ -184,13 +187,13 @@
 				TargetAttributes = {
 					0667D61320AACF5D00B0ADD0 = {
 						CreatedOnToolsVersion = 9.3.1;
-						LastSwiftMigration = 1000;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 06E2C136209ACD4C00D7546C;
 					};
 					06E2C136209ACD4C00D7546C = {
 						CreatedOnToolsVersion = 9.2;
-						LastSwiftMigration = 1000;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -258,6 +261,7 @@
 				061B5886209AEF8600AF03AC /* UIButton+Extensions.swift in Sources */,
 				061B588A209AF4C100AF03AC /* UITextField+Extensions.swift in Sources */,
 				06E2C13D209ACD4C00D7546C /* ViewController.swift in Sources */,
+				061030AC229FE3A700956790 /* UIControl+Extensions.swift in Sources */,
 				06E2C13B209ACD4C00D7546C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,7 +310,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.2359media.OnelineTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Oneline.app/Oneline";
 			};
@@ -326,7 +330,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.2359media.OnelineTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Oneline.app/Oneline";
 			};
@@ -457,7 +461,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -476,7 +480,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
