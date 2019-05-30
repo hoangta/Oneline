@@ -33,7 +33,7 @@ Feel free to fork, pull to request for your commonly used UIView subclasses.
 
 Oneline is released under an MIT license.
 
-[lang-image]: https://img.shields.io/badge/swift-4.2-orange.svg
+[lang-image]: https://img.shields.io/badge/swift-5.0-orange.svg
 [license-image]: https://img.shields.io/github/license/mashape/apistatus.svg
 [platform-image]: https://img.shields.io/badge/platform-iOS-lightGrey.svg
-[pod-version-image]: https://img.shields.io/badge/pod-2.0.0-blue.svg
+[pod-version-image]: https://img.shields.io/badge/pod-3.0.0-blue.svg
