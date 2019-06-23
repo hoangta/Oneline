@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Oneline"
-  s.version      = "3.0.0"
+  s.version      = "3.1.0"
   s.summary      = "Set common views' properties in a condensed way - single line."
   s.homepage     = "https://github.com/hoangta/Oneline"
   s.license      = { :type => "MIT", :file => "LICENSE" }

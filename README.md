@@ -1,7 +1,7 @@
 # Oneline
 [![Language][lang-image]](https://swift.org/) [![License][license-image]](LICENSE) ![Platform][platform-image] ![Pod Version][pod-version-image]
 
-## How to use
+### How to use
 Initialize UIView then chain setting its properties.
 
 ```swift
@@ -17,6 +17,13 @@ label.numberOfLines = 0
 label.backgroundColor = .green
 label.textAlignment = .center
 ```
+### Supported Controls:
+* UIView ⬜️
+* UIControl 🔳
+* UIButton 🔵
+* UILabel ☗
+* UITextField ✒︎
+* UIStackView ❏ 
 ### Cocoapods
 
 Add the following entry in your Podfile
